@@ -1,6 +1,7 @@
+#curl -fsSL https://raw.githubusercontent.com/global-cloudwork/docker-server/main/host-setup.sh | bash
+
 sudo apt-get install git
-
-
+curl -fsSL https://raw.githubusercontent.com/global-cloudwork/docker-server/main/host-setup.sh | bash
 
 # Add Docker's official GPG key:
 sudo apt-get update
